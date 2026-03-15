@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+dist/
+build/
+.venv/
+venv/
+
+# AWS credentials - NEVER commit these
+.env
+*.pem
+*.key
+credentials
+
+# Reports may contain sensitive findings
+report.html
+report.json
